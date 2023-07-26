@@ -15,6 +15,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- ReactJS dan ReactDOM dari CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.development.js"></script>
+
 </head>
 
 <body>
@@ -276,6 +280,7 @@
             <button onclick="logout()" style="margin-left: 730px; border-radius: 10px;">Logout</button>
 
 
+
             <!-- footer section-->
             <footer id="footer">
                 <div class="container-fluid">
@@ -290,7 +295,8 @@
                 </div>
             </footer>
 
-
+            <!-- root element untuk merender komponen React -->
+            <div id="root"></div>
             <!-- load javascript after loading all html content -->
             <script src="script.js"></script>
 
